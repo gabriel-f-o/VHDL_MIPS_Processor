@@ -3,19 +3,19 @@ This little project is an implementation of a MIPS-like processor in VHDL using 
 
 This project implements the following instructions
 
-ADD $DestReg, $Reg1, $Reg2
-ADDI $DestReg, $Reg1, Constant
-NOR $DestReg, $Reg1, $Reg2
-AND $DestReg, $Reg1, $Reg2
-BEQ $Reg1, $Reg2, Jump_to_line
-JUMP Jump_to_line
-LOAD $DestReg, $RAM_ADDR
-STORE $SourceReg, $RAM_ADDR
-SLT $RSet, $R1, $R2
-IN $DestReg
-OUT $SourceReg
-MOVE $DestReg, $SourceReg
-BGT $Reg1, $Reg2, Jump_to_line
+##### ADD $DestReg, $Reg1, $Reg2
+##### ADDI $DestReg, $Reg1, Constant
+##### NOR $DestReg, $Reg1, $Reg2
+##### AND $DestReg, $Reg1, $Reg2
+##### BEQ $Reg1, $Reg2, Jump_to_line
+##### JUMP Jump_to_line
+##### LOAD $DestReg, $RAM_ADDR
+##### STORE $SourceReg, $RAM_ADDR
+##### SLT $RSet, $R1, $R2
+##### IN $DestReg
+##### OUT $SourceReg
+##### MOVE $DestReg, $SourceReg
+##### BGT $Reg1, $Reg2, Jump_to_line
 
 The chosen architecture is depicted in the following figure
 
