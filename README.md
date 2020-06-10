@@ -1,2 +1,25 @@
 # VHDL_MIPS_Processor
-This little project is an implementation of a MIPS like processor in VHDL using Altera's FPGA technology
+This little project is an implementation of a MIPS-like processor in VHDL using Altera's FPGA technology
+
+This project implements the following instructions
+
+ADD $DestReg, $Reg1, $Reg2
+ADDI $DestReg, $Reg1, Constant
+NOR $DestReg, $Reg1, $Reg2
+AND $DestReg, $Reg1, $Reg2
+BEQ $Reg1, $Reg2, Jump_to_line
+JUMP Jump_to_line
+LOAD $DestReg, $RAM_ADDR
+STORE $SourceReg, $RAM_ADDR
+SLT $RSet, $R1, $R2
+IN $DestReg
+OUT $SourceReg
+MOVE $DestReg, $SourceReg
+BGT $Reg1, $Reg2, Jump_to_line
+
+The chosen architecture is depicted in the following figure
+
+![alt text](http://people.cs.pitt.edu/~don/coe1502/current/Unit4a/fig548.jpg)
+Source = https://people.cs.pitt.edu/~don/coe1502/current/Unit4a/Unit4a.html
+
+In this project you will find all source codes ready to be compiled and simulated, as well as a project for testing and debuging
