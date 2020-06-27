@@ -38,7 +38,7 @@ begin
 			else aluComp <= '0';
 			end if;
 		elsif(aluOP = "101") then --Less then
-			if(inputA < inputB) then 
+			if(signed(inputA) < signed(inputB)) then 
 				aluComp <= '1'; --Compare = 1
 				aluRes <= (others => '1'); --Res = xFFFF (required to SLT instruction)
 			else 
@@ -47,7 +47,7 @@ begin
 			end if;		
 		elsif(aluOP = "110") then --Greater then
 			aluRes <= (others => '0');
-			if(inputA > inputB) then aluComp <= '1';
+			if(signed(inputA) > signed(inputB)) then aluComp <= '1';
 			else aluComp <= '0';
 			end if;
 		else --Else NOP
