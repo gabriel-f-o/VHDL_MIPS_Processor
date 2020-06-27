@@ -1,4 +1,4 @@
-# VHDL_MIPS_Processor
+# VHDL MIPS Processor
 This little project is an implementation of a MIPS-like processor in VHDL using Altera's FPGA technology
 
 This project implements the following instructions :
