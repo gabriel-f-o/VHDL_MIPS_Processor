@@ -39,7 +39,7 @@ begin
 			else aluComp <= '0';
 			end if;
 		elsif(aluOP = 5) then --Less then
-			if(inputA < inputB) then 
+			if(signed(inputA) < signed(inputB)) then 
 				aluComp <= '1';
 				aluRes <= (others => '1');
 			else 
@@ -48,7 +48,7 @@ begin
 			end if;		
 		elsif(aluOP = 6) then --Greater then
 			aluRes <= (others => '0');
-			if(inputA > inputB) then aluComp <= '1';
+			if(signed(inputA) > signed(inputB)) then aluComp <= '1';
 			else aluComp <= '0';
 			end if;
 		else --Else
