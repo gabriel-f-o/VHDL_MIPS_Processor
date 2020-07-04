@@ -18,6 +18,6 @@ This project implements the following instructions :
 
 The chosen architecture is depicted in the following figure (Check MIPSProcessorDoc.pdf ti have all information about this project)
 
-![alt text]()
+![alt text](https://github.com/gabriel-f-o/VHDL_MIPS_Processor/blob/master/LaTeX%20Source%20Code/MIPSProcessor.png)
 
 In this project you will find all source codes ready to be compiled and simulated, as well as a project for testing and debuging
