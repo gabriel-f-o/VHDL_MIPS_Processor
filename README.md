@@ -16,9 +16,8 @@ This project implements the following instructions :
   - MOVE $DestReg, $SourceReg
   - BGT $Reg1, $Reg2, Jump_to_line
 
-The chosen architecture is depicted in the following figure (Check MIPSProcessorDoc.pdf to understand the modifications and all information about this project)
+The chosen architecture is depicted in the following figure (Check MIPSProcessorDoc.pdf ti have all information about this project)
 
-![alt text](http://people.cs.pitt.edu/~don/coe1502/current/Unit4a/fig548.jpg)
-Source = https://people.cs.pitt.edu/~don/coe1502/current/Unit4a/Unit4a.html
+![alt text](https://github.com/gabriel-f-o/VHDL_MIPS_Processor/blob/master/LaTeX%20Source%20Code/MIPSProcessor.png)
 
 In this project you will find all source codes ready to be compiled and simulated, as well as a project for testing and debuging
